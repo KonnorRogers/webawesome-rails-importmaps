@@ -4,7 +4,7 @@ Web Awesome + Rails Import Maps
 
 Important files:
 
-- `app/views/`
+- `app/views/layouts/application.html.erb` this is where the Web Awesome stylesheet gets loaded.
 - `app/javascript/application.js` which has the setup code for auto-loading components
 - `script/pull-webawesome.sh` which is a bash script to pull Web Awesome's tarball from NPM and then make it a little more ergonomic to work with.
 - `public/webawesome` - This is where the Web Awesome files live.
