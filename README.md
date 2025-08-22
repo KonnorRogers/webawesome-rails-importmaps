@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Web Awesome + Rails Import Maps
 
-Things you may want to cover:
+Important files:
 
-* Ruby version
+- `app/javascript/application.js` which has the setup code for auto-loading components
+- `script/pull-webawesome.sh` which is a bash script to pull Web Awesome's tarball from NPM and then make it a little more ergonomic to work with.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
