@@ -2,7 +2,9 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
-import { discover, setBasePath } from '/webawesome/dist/webawesome.js';
+import { discover, preventTurboFouce, setBasePath } from '/webawesome/dist/webawesome.js';
 setBasePath('/webawesome/dist');
-discover(document.body)
 // ^ this lets us pull webawesome icons automatically from the proper spot.
+
+discover(document.body)
+preventTurboFouce();
